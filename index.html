@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwagShop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      color: white;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .title-container {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      width: 100%;
+    }
+
+    .title {
+      font-size: 3rem;
+      animation: rotate 5s infinite linear;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .content {
+      text-align: center;
+      margin-top: 150px; /* Altezza della navbar + spazio extra */
+    }
+
+    .work-in-progress {
+      font-size: 2rem;
+      color: #777;
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body style="background-image: url('https://www.repstatic.it/content/contenthub/img/2022/12/29/202146876-79f2b499-4a0d-414d-b61a-515ec4d7f209.jpg?webp'); background-size:contain; background-position: center;">
+  <div class="navbar">
+    <h2>-</h2>
+  </div>
+
+  <div class="title-container">
+    <h1 class="title">SwagShop</h1>
+  </div>
+
+  <div class="content">
+    <p class="work-in-progress">Stiamo lavorando per voi!!!!</p>
+  </div>
+</body>
+</html>
